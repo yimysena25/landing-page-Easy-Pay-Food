@@ -1,0 +1,505 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 98px;
+   
+}
+
+.barra-social {
+    position: fixed;
+    left: 0;
+    top: 200px;
+    z-index: 2000;
+
+}
+
+.barra-social ul {
+    list-style: none;
+}
+
+.barra-social ul li a {
+    display: inline-block;
+    color: #ffffff;
+    background: #000000;
+    padding: 10px 15px;
+    text-decoration: none;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.barra-social ul li .icon-facebook {background: #3b5998;}
+.barra-social ul li .icon-instagram {background: #C13584 ;}
+.barra-social ul li .icon-whatsapp {background: #00bb2d;}
+.barra-social ul li .icon-twitter {background: #00abf0;}
+
+.barra-social ul li a:hover {
+    padding: 10px 30px;
+    background: #000000;
+}
+
+
+
+header .contenedor{
+    background: rgb(42 0 0);
+    width: 100%;
+    top: 0;
+    z-index: 20;
+    position: fixed;
+  
+
+}
+
+header .contenedor .navbar-brand img {
+    max-height: 75px;
+    max-width: 75px;
+}
+
+header .navbar-toggler img {
+    max-width: 30px;
+    max-height: 30px;
+    filter: invert(1);
+}
+
+header .contenedor .navbar-collapse {
+        justify-content: center;
+}
+
+header .contenedor .navbar-collapse li a{
+    color: #ffffff;
+}
+
+header .contenedor .navbar-collapse li a:hover {
+    color: #ffcc00;
+}
+
+ header .carousel-item .carousel-caption {
+    bottom: 45%;
+} 
+
+
+header .carousel-item .carousel-caption h5 {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+
+header .carousel-item .carousel-caption .boton {
+    background: #ffffff;
+    border-radius: 8px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    padding: 10px 9px;
+    border-color: rgb(220 53 69);
+    color: rgb(220 53 69);
+    margin-top: -3px;
+    outline: none;
+  
+}
+
+header .carousel-item .carousel-caption .boton:hover {
+    background: rgb(220 53 69);
+    cursor: pointer;
+    color: #ffffff;
+}
+
+#nosotros {
+    width: 100%;
+    padding-bottom: 30px;
+    background: #ffffff;
+
+}
+
+#nosotros .container h2 {
+    margin: 50px 0px 10px 0px;
+    text-align: center;
+    color: #000000;
+    font-weight: 600;
+}
+
+#nosotros .container p {
+    margin-top: 15px;
+    margin-bottom: 40px;
+    color: #000000;
+    padding: 0px 100px 0px 100px;
+    text-align: justify;
+}
+
+
+#nosotros .tarjeta {
+max-width: 340px;
+padding-bottom: 10px;
+margin: 0 20px;
+outline: none;
+}
+
+.slick-next:before {
+    color: #000000;
+}
+
+.slick-prev:before {
+    color: #000000;
+}
+
+ #nosotros .tarjeta img{
+    filter: brightness(90%); 
+    animation: escalar 2s infinite alternate; 
+    max-width: 100%;
+    border: 2px solid #330000;
+    border-radius: 4px;
+    margin-top: 10px;
+} 
+
+ @keyframes escalar {
+    to {
+        transform: scale(1);
+    }
+    from {
+        transform: scale(1.05);
+    }
+}
+
+#nosotros .tarjeta img:hover {
+    filter: brightness(100%);
+} 
+
+
+#servicios {
+    margin-top: 90px;
+    background: rgb(247 247 247);
+}
+
+#servicios .contenedor-amarillo {
+    background: #ffcc00;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* #seccion3 .contenedor-amarillo::before {
+    content: "";
+    position: absolute;
+    width: 370px;
+    height: 3px;
+    background: #330000;
+    bottom: 55px;
+    left: 110px;
+} */
+
+#servicios .contenedor-amarillo img {
+    width: 50%;
+    float: right;
+}
+
+#servicios .contenedor-amarillo h2 {
+    position: absolute;
+    right: 62%;
+    bottom: 15%;
+    color: #000000;
+    font-size: 45px;
+}
+
+
+#servicios .row {
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+
+#servicios .posicion {
+    justify-content: center;
+    text-align: center;
+}
+
+#servicios .posicion img {
+    margin-bottom: 8px;
+    width: 180px;
+}
+
+#servicios .posicion h2 {
+    font-size: 20px;
+    color: #000000;
+
+}
+
+#equipo {
+    background: url(../img/imagen-prueba-22.jpg);
+    background-size: cover;
+    width: 100%;
+    margin-top: 30px;
+}
+
+#equipo h2 {
+    padding: 70px 0 80px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+    
+}
+
+#equipo .carta-pagina img{
+    border-radius: 50%;
+    max-width: 110px;
+}
+
+
+#equipo .carta-pagina {
+  
+    background: rgb(255 255 255 / 50%);
+    text-align: center;
+    margin-bottom: 115px;
+    
+}
+
+#equipo .carta-pagina h3 {
+    padding: 10px 4px 0 4px;
+    color: #330000;
+    font-size: 26px;
+}
+
+
+
+#equipo .carta-pagina h5 {
+    padding: 5px 2px;
+    color: rgb(51 0 0);
+    font-size: 20px;
+}
+
+footer {
+    background: #330000;
+    width: 100%;
+}
+
+footer .sociales {
+    margin-top: 80px;
+    text-align: center;
+
+}
+
+footer .logito img {
+    max-width: 35%;
+}
+
+/* footer .sociales::before {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 2px;
+    background: #ffffff;
+    top: 150px;
+    left: 84%;
+    transform: rotate(90deg);
+} */
+
+
+footer .row {
+    margin: 0 auto;
+}
+
+
+footer .contactos {
+    text-align: center;
+    margin-top: 23px;
+    margin-top: 21%;
+    margin-bottom: 10%;
+}
+
+
+
+/* footer .contactos::before {
+    content: "";
+    position: absolute;
+    width: 577px;
+    height: 2px;
+    background: #ffffff;
+    bottom: 40px;
+    left: -18%;
+} */
+
+footer .contactos h3 {
+    font-size: 22px;
+    color: rgb(255 255 255);
+}
+
+footer .contactos h4 {
+    font-size: 19px;
+    padding: 10px;
+    color: rgb(255 255 255);
+}
+
+footer .contactos h5{
+    color: rgb(255 255 255);
+    font-size: 17px;
+}
+
+
+footer .mapa {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* footer .mapa::before {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 2px;
+    background: #ffffff;
+    top: 150px;
+    right: 84%;
+    transform: rotate(90deg);
+
+} */
+
+footer .mapa h2 {
+    font-size: 30px;
+    color: #ffffff;
+
+}
+
+footer .mapa img {
+    max-width: 320px;
+}
+
+/*  REPONSIVE - TABLET */
+
+@media screen and (max-width:990px) and (min-width:768px) {
+    header .carousel-item .carousel-caption {
+        bottom: 23%;
+    }
+
+    #servicios .contenedor-amarillo h2 {
+        right: 52%;
+        font-size: 39px;
+    }
+
+    #equipo .carta-pagina h3 {
+        font-size: 21px;
+    }
+
+    #equipo .carta-pagina h5 {
+        font-size: 14px;
+    }
+
+    footer .logito img {
+        max-width: 46%;
+    }
+
+    footer .sociales .redes {
+        margin-left: 1%;
+    }
+
+
+    footer .contactos h5 {
+        font-size: 15px;
+    }
+
+    footer .mapa img {
+        max-width: 210px;
+    }
+
+
+}
+
+
+
+/*  REPONSIVE - PHONE */
+
+@media screen and (max-width:520px) and (min-width:320px) {
+
+    header .carousel-item .carousel-caption {
+        display: block!important;
+        bottom: 12%;
+    } 
+
+    header .carousel-item .carousel-caption h5 {
+    font-size: 16px;
+    }
+
+    header .carousel-item .carousel-caption p {
+        font-size: 8px;
+    margin-bottom: 3px;
+    }
+
+    header .carousel-item .carousel-caption .boton {
+        padding: 6px 3px;
+    font-size: 8px;
+    }
+
+    #nosotros .container p {
+        padding: 0px 4px;
+    }
+
+    .slick-prev:before {
+        content: none;
+    }
+
+    .slick-next:before {
+        content: none;
+    }
+
+    #nosotros {
+        padding-bottom: 10px;
+    }
+
+    #servicios .contenedor-amarillo img {
+        height: 157px;
+    object-fit: cover;
+    }
+
+    #servicios .contenedor-amarillo h2 {
+        right: 40%;
+        bottom: 8%;
+        font-size: 22px;
+        padding-left: 13px;
+    }
+
+    #servicios .posicion {
+        margin-bottom: 30px;
+    }
+
+    #equipo .carta-pagina {
+        margin-bottom: 30px;
+
+    }
+
+
+    footer .mapa img {
+        max-width: 213px;
+        margin-bottom: 15px;
+    }
+
+
+    footer .contactos h3 {
+        margin-top: 33px;
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width:991px) {
+    header .carousel-item .carousel-caption {
+        bottom: 28%;
+    }
+
+    #servicios .contenedor-amarillo h2 {
+        right: 56%;
+    }
+
+    footer .mapa img {
+        max-width: 300px;
+    }
+
+    footer .contactos {
+    margin-bottom: 18%;
+    }
+
+    footer .logito img {
+        max-width: 45%;
+    }
+
+
+
+}
